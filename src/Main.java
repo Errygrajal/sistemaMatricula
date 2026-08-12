@@ -7,6 +7,6 @@
  *
  * @author UTN
  */
-public class Matricula {
+public class Main {
     
 }
