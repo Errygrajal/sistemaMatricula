@@ -9,12 +9,12 @@
  */
 import java.util.Date;
 
-public class Matricula {
+public class newMatricula {
     private EstudianteDeilyn estudiante;
     private Date fecha;
     private String estado;
 
-    public Matricula(EstudianteDeilyn estudiante) {
+    public newMatricula(EstudianteDeilyn estudiante) {
         this.estudiante = estudiante;
         this.fecha = new Date();
         this.estado = "ACTIVA";
