@@ -2,25 +2,28 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-import java.util.Date;
+
 /**
  *
  * @author UTN
  */
-public class Matricula {
-  
+import java.util.Date;
+
+public class newMatricula {
     private EstudianteDeilyn estudiante;
     private Date fecha;
     private String estado;
 
-    public Matricula(EstudianteDeilyn estudiante) {
+    public newMatricula(EstudianteDeilyn estudiante) {
         this.estudiante = estudiante;
         this.fecha = new Date();
         this.estado = "ACTIVA";
     }
 
     public void mostrarDetalle() {
-        System.out.println("Matrícula: " + estudiante.getDatos() + " | Fecha: " + fecha + " | Estado: " + estado);
+        System.out.println("=== Detalle de Matrícula ===");
+        System.out.println(estudiante.getDatos());
+        System.out.println("Fecha: " + fecha);
+        System.out.println("Estado: " + estado);
     }
-
 }

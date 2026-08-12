@@ -37,13 +37,11 @@ public class EstudianteDeilyn {
         this.carrera = carrera;
     }
 
-    @Override
-    public String toString() {
-        return "Estudiante: " + nombre + " (Cédula: " + cedula + ", Carrera: " + carrera + ")";
+  
+
+    boolean getDatos() {
+    throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    String getDatos() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-}
